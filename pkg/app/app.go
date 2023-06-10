@@ -3,15 +3,15 @@ package app
 import (
 	"go.uber.org/fx"
 
-	"github.com/GalvinGao/gofiber-template/pkg/app/appconfig"
-	"github.com/GalvinGao/gofiber-template/pkg/app/appcontext"
-	"github.com/GalvinGao/gofiber-template/pkg/controller"
-	"github.com/GalvinGao/gofiber-template/pkg/infra"
-	"github.com/GalvinGao/gofiber-template/pkg/repo"
-	"github.com/GalvinGao/gofiber-template/pkg/server"
-	"github.com/GalvinGao/gofiber-template/pkg/service"
-	"github.com/GalvinGao/gofiber-template/pkg/x/logger"
-	"github.com/GalvinGao/gofiber-template/pkg/x/logger/fxlogger"
+	"github.com/eliasdn/Elda-Bank/pkg/app/appconfig"
+	"github.com/eliasdn/Elda-Bank/pkg/app/appcontext"
+	"github.com/eliasdn/Elda-Bank/pkg/controller"
+	"github.com/eliasdn/Elda-Bank/pkg/infra"
+	"github.com/eliasdn/Elda-Bank/pkg/repo"
+	"github.com/eliasdn/Elda-Bank/pkg/server"
+	"github.com/eliasdn/Elda-Bank/pkg/service"
+	"github.com/eliasdn/Elda-Bank/pkg/x/logger"
+	"github.com/eliasdn/Elda-Bank/pkg/x/logger/fxlogger"
 )
 
 func New(ctx appcontext.Ctx, additionalOpts ...fx.Option) *fx.App {

@@ -3,7 +3,7 @@ package http
 import (
 	"go.uber.org/fx"
 
-	"github.com/GalvinGao/gofiber-template/pkg/server/http/route"
+	"github.com/eliasdn/Elda-Bank/pkg/server/http/route"
 )
 
 func Module() fx.Option {

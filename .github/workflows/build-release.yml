@@ -40,7 +40,7 @@ jobs:
         id: docker-meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/GalvinGao/gofiber-template
+          images: ghcr.io/eliasdn/Elda-Bank
           tags: |
             type=semver,pattern=v{{version}}
             type=ref,event=branch

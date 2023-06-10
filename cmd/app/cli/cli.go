@@ -5,8 +5,8 @@ import (
 
 	"go.uber.org/fx"
 
-	"github.com/GalvinGao/gofiber-template/pkg/app"
-	"github.com/GalvinGao/gofiber-template/pkg/app/appcontext"
+	"github.com/eliasdn/Elda-Bank/pkg/app"
+	"github.com/eliasdn/Elda-Bank/pkg/app/appcontext"
 )
 
 func Start(module fx.Option) {

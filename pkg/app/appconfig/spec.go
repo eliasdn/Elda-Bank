@@ -1,7 +1,7 @@
 package appconfig
 
 import (
-	"github.com/GalvinGao/gofiber-template/pkg/app/appcontext"
+	"github.com/eliasdn/Elda-Bank/pkg/app/appcontext"
 )
 
 // ConfigSpec is the configuration specification.

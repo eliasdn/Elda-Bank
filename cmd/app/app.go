@@ -6,8 +6,8 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/urfave/cli/v2"
 
-	"github.com/GalvinGao/gofiber-template/cmd/app/cli/db"
-	"github.com/GalvinGao/gofiber-template/cmd/app/server"
+	"github.com/eliasdn/Elda-Bank/cmd/app/cli/db"
+	"github.com/eliasdn/Elda-Bank/cmd/app/server"
 )
 
 func Run() {

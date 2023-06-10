@@ -3,7 +3,7 @@ package infra
 import (
 	"go.uber.org/fx"
 
-	"github.com/GalvinGao/gofiber-template/pkg/infra/db"
+	"github.com/eliasdn/Elda-Bank/pkg/infra/db"
 )
 
 func Module() fx.Option {

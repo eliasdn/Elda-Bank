@@ -5,7 +5,7 @@ import (
 
 	"github.com/uptrace/bun"
 
-	"github.com/GalvinGao/gofiber-template/pkg/model"
+	"github.com/eliasdn/Elda-Bank/pkg/model"
 )
 
 type Post struct {

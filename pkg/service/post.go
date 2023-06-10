@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	"github.com/GalvinGao/gofiber-template/pkg/model"
-	"github.com/GalvinGao/gofiber-template/pkg/repo"
+	"github.com/eliasdn/Elda-Bank/pkg/model"
+	"github.com/eliasdn/Elda-Bank/pkg/repo"
 )
 
 type Post struct {

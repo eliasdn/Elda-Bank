@@ -1,4 +1,4 @@
-module github.com/GalvinGao/gofiber-template
+module github.com/eliasdn/Elda-Bank
 
 go 1.19
 
